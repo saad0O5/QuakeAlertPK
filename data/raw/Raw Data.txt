@@ -1,0 +1,9 @@
+Earthquake Dataset URL: 
+https://earthquake.usgs.gov/fdsnws/event/1/query?format=csv&starttime={start_date}&endtime={end_date}&minmagnitude={min_magnitude}&minlatitude={min_lat}&maxlatitude={max_lat}&minlongitude={min_lon}&maxlongitude={max_lon}
+
+Tectonic Plates Dataset URL:
+https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json
+
+Population: https://hub.worldpop.org/geodata/listing?id=29 Worldpop website. This was too big around 327 million points. We did sampling of every 50th point and it came down to 46k points k around.
+
+Soil: https://soilgrids.org/ soil grids website. Is mein we had 3 separate features extracted. Sand content, clay content and soil organic carbon.
